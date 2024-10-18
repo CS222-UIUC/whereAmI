@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-        <h1>Upload an Image to Find Building</h1>
+        <h1>Where Am I?</h1>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -25,8 +25,9 @@
             <form action="/upload" method="POST" enctype="multipart/form-data">
                 <label for="building-image">Choose an image:</label>
                 <input type="file" id="building-image" name="building-image" accept="image/*" required>
-                <button type="submit">Upload</button>
             </form>
+
+            <button class="upload" type="submit">Upload</button>
         </section>
 
         <!-- Building Information Section -->
@@ -41,14 +42,14 @@
         <section id="comments">
             <h2>Building Comments</h2>
             <form action="/comment" method="POST">
-                <label for="comment">Leave a comment:</label>
+                <label for="comment">Leave a comment:</label><br>
                 <textarea id="comment" name="comment" rows="4" required></textarea>
-                <button type="submit">Post Comment</button>
             </form>
+            <button class="comment" type="submit">Post Comment</button>
 
             <h3>Anonymous Comments</h3>
             <div id="comment-section">
-                <p>No comments yet.</p>
+                <p>No comments yet. Leave your thoughts!</p>
             </div>
         </section>
     </main>
