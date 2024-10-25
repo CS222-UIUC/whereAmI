@@ -1,10 +1,12 @@
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
-    background-color: #13294B;
+    color: black;
+    
 }
 
 h1{
+    background-color: #13294B;
     color: #FF5F05;
     padding: 10px 0;
     text-align: center;
@@ -13,9 +15,6 @@ h1{
 main {
     margin: 60px;
     padding: 20px;
-    background: rgb(95, 123, 175);
-    border-radius: 5px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .upload {
@@ -43,8 +42,4 @@ main {
 li {
     margin-left: 60px;
     margin-top: 10px;
-}
-
-a {
-    color: burlywood;
 }
