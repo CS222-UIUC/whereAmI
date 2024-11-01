@@ -4,7 +4,59 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ba2f806-a764-49a6-bb04-756c85cb98db" name="Changes" comment="" />
+    <list default="true" id="2ba2f806-a764-49a6-bb04-756c85cb98db" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/test/Engineering Hall/IMG_1074.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/test/Engineering Hall/IMG_1076.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/test/Everitt Lab/IMG_1062.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/test/Everitt Lab/IMG_1063.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/test/Everitt Lab/IMG_7750.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/test/Grainger Library/IMG_1057.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/test/Grainger Library/IMG_7777.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/test/Grainger Library/IMG_7783.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/test/Grainger Library/IMG_7785.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/test/Grainger Library/IMG_7791.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/test/Material Science Building/IMG_1080.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/test/Material Science Building/IMG_1081.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/test/Material Science Building/IMG_1082.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/test/Material Science Building/IMG_1083.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/test/Material Science Building/IMG_1084.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/test/Material Science Building/IMG_1085.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/test/Material Science Building/IMG_1086.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/test/Material Science Building/IMG_1087.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/test/Material Science Building/IMG_1088.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/test/Material Science Building/IMG_1089.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/test/Material Science Building/IMG_1090.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/test/Material Science Building/IMG_1092.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/test/Material Science Building/IMG_1093.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/test/Mechanical Engineering Lab/IMG_1048.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/test/Mechanical Engineering Lab/IMG_1051.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/test/Siebel/IMG_3139.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/test/Siebel/IMG_3140.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/test/Siebel/IMG_3141.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/test/Siebel/IMG_3143.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/test/Siebel/IMG_3144.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/test/Siebel/IMG_3145.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/test/Siebel/IMG_3147.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/test/Siebel/IMG_3148.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/test/Siebel/IMG_3150.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/test/Siebel/IMG_3151.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/train/Engineering Hall/IMG_1068.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/train/Engineering Hall/IMG_1073.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/train/Everitt Lab/IMG_1058.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/train/Everitt Lab/IMG_1061.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/train/Grainger Library/001.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/train/Grainger Library/IMG_1047.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/train/Grainger Library/IMG_1056.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/train/Grainger Library/IMG_7778.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/train/Grainger Library/IMG_7784.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/train/Material Science Building/IMG_1079.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/train/Material Science Building/IMG_1094.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/train/Mechanical Engineering Lab/IMG_1049.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/train/Siebel/IMG_3142.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/images/train/Siebel/IMG_3149.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/helperRename.py" beforeDir="false" afterPath="$PROJECT_DIR$/helper_rename.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,10 +69,19 @@
       </list>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2oAzgVwsxWJYjxuUpByOxj4SlXv" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -30,15 +91,19 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "pytorch",
+    "last_opened_file_path": "/Users/evelynzhou/Documents/Code/cs222/whereAmI/building_identify",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data/readme_imgs" />
       <recent name="$PROJECT_DIR$/data/images/train/Grainger Library" />
     </key>
   </component>
@@ -65,7 +130,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="helperRename" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="building2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="building_identify" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -78,7 +143,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/helperRename.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/building2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -87,7 +152,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="rename_helper" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="building3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="building_identify" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -100,7 +165,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rename_helper.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/building3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -109,7 +174,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="building4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="building_identify" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -122,7 +187,29 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/building4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="helper_rename" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="building_identify" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/helper_rename.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -134,9 +221,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.building" />
-        <item itemvalue="Python.helperRename" />
-        <item itemvalue="Python.test" />
-        <item itemvalue="Python.rename_helper" />
+        <item itemvalue="Python.building2" />
+        <item itemvalue="Python.building4" />
+        <item itemvalue="Python.building3" />
+        <item itemvalue="Python.helper_rename" />
       </list>
     </recent_temporary>
   </component>
@@ -149,6 +237,7 @@
       <option name="presentableId" value="Default" />
       <updated>1730327279602</updated>
       <workItem from="1730327280653" duration="2330000" />
+      <workItem from="1730500323172" duration="3019000" />
     </task>
     <servers />
   </component>
@@ -156,9 +245,12 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/building_identify$building3.coverage" NAME="building3 Coverage Results" MODIFIED="1730501712363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/building_identify$test.coverage" NAME="test Coverage Results" MODIFIED="1730328493167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/building_identify$helperRename.coverage" NAME="helperRename Coverage Results" MODIFIED="1730328924406" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/building_identify$helperRename.coverage" NAME="helperRename Coverage Results" MODIFIED="1730500632056" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/building_identify$rename_helper.coverage" NAME="rename_helper Coverage Results" MODIFIED="1730328488743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/building_identify$building.coverage" NAME="building Coverage Results" MODIFIED="1730329382971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/building_identify$building2.coverage" NAME="building2 Coverage Results" MODIFIED="1730502595620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/building_identify$building4.coverage" NAME="building4 Coverage Results" MODIFIED="1730502264713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/building_identify$building.coverage" NAME="building Coverage Results" MODIFIED="1730503098000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
