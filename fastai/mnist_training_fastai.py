@@ -1,4 +1,4 @@
-from fastai.vision.all import *  
+from fastai.vision.all import *
 
 # Define the DataBlock(DataLoaders that contains a training set and a validation set)
 dls = DataBlock(
