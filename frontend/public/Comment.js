@@ -10,7 +10,7 @@ function renderComments() {
     comments.forEach((comment) => {
         commentsHTML += `
             <div class="comments">
-                <strong class="username"> anonymous </strong>
+                <strong class="username"> Anonymous </strong>
                 <p class="usercomment">${comment}</p>
             </div>
         `;
