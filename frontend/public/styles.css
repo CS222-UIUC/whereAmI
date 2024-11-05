@@ -43,3 +43,18 @@ li {
     margin-left: 60px;
     margin-top: 10px;
 }
+
+.js-comment-section {
+    background-color: #13294B;
+    color: antiquewhite;
+    border-radius: 5px;
+}
+
+.username {
+    color: #FF5F05;
+}
+
+.usercomment {
+    color: antiquewhite;
+    margin: 20px;
+}
