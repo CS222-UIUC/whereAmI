@@ -41,17 +41,24 @@
         <!-- Comments Section -->
         <section id="comments">
             <h2>Building Comments</h2>
-            <form action="/comment" method="POST">
+            <form id="comment-form" method="POST">
                 <label for="comment">Leave a comment:</label><br>
-                <textarea id="comment" name="comment" rows="4" required></textarea>
+                <textarea id="contentOfTextarea" name="comment" rows="4" required></textarea>
+                <button class="comment" type="submit" onclick="
+                    renderComments();
+                ">Post Comment</button>
             </form>
-            <button class="comment" type="submit">Post Comment</button>
 
             <h3>Anonymous Comments</h3>
-            <div id="comment-section">
-                <p>No comments yet. Leave your thoughts!</p>
+            <div class="comment-section
+            js-comment-section">
+                No comments yet. Leave your thoughts!
             </div>
+
+            <script src="Comment.js"></script>
         </section>
+
+        
     </main>
 
     <footer>
