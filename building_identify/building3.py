@@ -97,3 +97,6 @@ for epoch in range(num_epochs):
         if no_improve_epochs >= early_stopping_patience:
             print("Early stopping")
             break
+# Save the model after training
+torch.save(model.state_dict(), '/Users/evelynzhou/Documents/Code/cs222/whereAmI/building_identify/trained_resnet18.pth')
+

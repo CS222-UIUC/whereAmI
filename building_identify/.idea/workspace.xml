@@ -6,56 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2ba2f806-a764-49a6-bb04-756c85cb98db" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/test/Engineering Hall/IMG_1074.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/test/Engineering Hall/IMG_1076.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/test/Everitt Lab/IMG_1062.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/test/Everitt Lab/IMG_1063.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/test/Everitt Lab/IMG_7750.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/test/Grainger Library/IMG_1057.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/test/Grainger Library/IMG_7777.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/test/Grainger Library/IMG_7783.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/test/Grainger Library/IMG_7785.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/test/Grainger Library/IMG_7791.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/test/Material Science Building/IMG_1080.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/test/Material Science Building/IMG_1081.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/test/Material Science Building/IMG_1082.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/test/Material Science Building/IMG_1083.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/test/Material Science Building/IMG_1084.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/test/Material Science Building/IMG_1085.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/test/Material Science Building/IMG_1086.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/test/Material Science Building/IMG_1087.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/test/Material Science Building/IMG_1088.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/test/Material Science Building/IMG_1089.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/test/Material Science Building/IMG_1090.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/test/Material Science Building/IMG_1092.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/test/Material Science Building/IMG_1093.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/test/Mechanical Engineering Lab/IMG_1048.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/test/Mechanical Engineering Lab/IMG_1051.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/test/Siebel/IMG_3139.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/test/Siebel/IMG_3140.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/test/Siebel/IMG_3141.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/test/Siebel/IMG_3143.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/test/Siebel/IMG_3144.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/test/Siebel/IMG_3145.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/test/Siebel/IMG_3147.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/test/Siebel/IMG_3148.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/test/Siebel/IMG_3150.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/test/Siebel/IMG_3151.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/train/Engineering Hall/IMG_1068.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/train/Engineering Hall/IMG_1073.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/train/Everitt Lab/IMG_1058.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/train/Everitt Lab/IMG_1061.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/train/Grainger Library/001.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/train/Grainger Library/IMG_1047.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/train/Grainger Library/IMG_1056.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/train/Grainger Library/IMG_7778.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/train/Grainger Library/IMG_7784.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/train/Material Science Building/IMG_1079.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/train/Material Science Building/IMG_1094.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/train/Mechanical Engineering Lab/IMG_1049.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/train/Siebel/IMG_3142.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/images/train/Siebel/IMG_3149.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/helperRename.py" beforeDir="false" afterPath="$PROJECT_DIR$/helper_rename.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,21 +36,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "pytorch",
-    "last_opened_file_path": "/Users/evelynzhou/Documents/Code/cs222/whereAmI/building_identify",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;pytorch&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/evelynzhou/Documents/Code/cs222/whereAmI/building_identify&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/data/readme_imgs" />
@@ -237,7 +187,8 @@
       <option name="presentableId" value="Default" />
       <updated>1730327279602</updated>
       <workItem from="1730327280653" duration="2330000" />
-      <workItem from="1730500323172" duration="3019000" />
+      <workItem from="1730500323172" duration="3775000" />
+      <workItem from="1731711079942" duration="1170000" />
     </task>
     <servers />
   </component>
