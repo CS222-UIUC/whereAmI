@@ -17,4 +17,4 @@ train_dataset = ImageFolder(root='data/images/train', transform=transform)
 class_names = train_dataset.classes
 
 # Save class names to a file (could be any path you prefer)
-torch.save(class_names, '/Users/evelynzhou/Documents/Code/cs222/whereAmI/building_identify/class_names.pth')
+torch.save(class_names, 'class_names.pth')
