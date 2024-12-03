@@ -78,5 +78,19 @@
 > Epoch 20/20, Training Loss: 0.3196, Validation Loss: 0.5672, Accuracy: 85.71%  
 
 
+## Accuracy using building4.py:
+Epoch 1/10, Training Loss: 2.1401, Validation Loss: 1.7965, Training Accuracy: 71.43%, Validation accuracy: 3.81%
+Epoch 2/10, Training Loss: 1.2190, Validation Loss: 1.6688, Training Accuracy: 78.57%, Validation accuracy: 24.76%
+Epoch 3/10, Training Loss: 1.0495, Validation Loss: 1.5463, Training Accuracy: 85.71%, Validation accuracy: 40.00%
+Epoch 4/10, Training Loss: 0.5567, Validation Loss: 1.4442, Training Accuracy: 100.00%, Validation accuracy: 59.05%
+Epoch 5/10, Training Loss: 0.4712, Validation Loss: 1.2940, Training Accuracy: 100.00%, Validation accuracy: 66.67%
+Epoch 6/10, Training Loss: 0.2436, Validation Loss: 1.1601, Training Accuracy: 100.00%, Validation accuracy: 68.57%
+Epoch 7/10, Training Loss: 0.2604, Validation Loss: 1.0710, Training Accuracy: 100.00%, Validation accuracy: 68.57%
+Epoch 8/10, Training Loss: 0.2078, Validation Loss: 1.0052, Training Accuracy: 100.00%, Validation accuracy: 70.48%
+Epoch 9/10, Training Loss: 0.1613, Validation Loss: 0.9428, Training Accuracy: 92.86%, Validation accuracy: 73.33%
+Epoch 10/10, Training Loss: 0.1561, Validation Loss: 0.9381, Training Accuracy: 100.00%, Validation accuracy: 72.38%
+
+
+
 ## helper_rename.py
 a helper function to change all the image suffix name to `.jpg`
