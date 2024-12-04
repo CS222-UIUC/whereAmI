@@ -21,8 +21,8 @@ test_dataset = ImageFolder(root='data/images/test', transform=transform)
 train_loader = DataLoader(train_dataset, batch_size=32, shuffle=True)
 test_loader = DataLoader(test_dataset, batch_size=32, shuffle=False)
 
-# Load pre-trained ResNet-18 model
-model = models.resnet18(pretrained=True)
+# Load pre-trained ResNet-50 model
+model = models.resnet50(pretrained=True)
 
 # Unfreeze the last two residual blocks and fully connected layer for more fine-tuning
 for name, param in model.named_parameters():
@@ -43,7 +43,7 @@ optimizer = optim.SGD(model.parameters(), lr=0.0005, momentum=0.9)
 scheduler = ReduceLROnPlateau(optimizer, mode='min', factor=0.5, patience=2, verbose=True)
 
 # Training with early stopping
-num_epochs = 20
+num_epochs = 30
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 model = model.to(device)
 
@@ -98,5 +98,5 @@ for epoch in range(num_epochs):
             print("Early stopping")
             break
 # Save the model after training
-torch.save(model.state_dict(), 'trained_resnet18.pth')
+torch.save(model.state_dict(), 'trained_resnet50.pth')
 
