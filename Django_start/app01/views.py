@@ -9,12 +9,12 @@ import os
 from django.conf import settings
 
 # Get the path relative to the Django project base directory
-model_path = os.path.join(settings.BASE_DIR, 'app01', 'static', 'models', 'trained_resnet18.pth')
+model_path = os.path.join(settings.BASE_DIR, 'app01', 'static', 'models', 'trained_resnet50.pth')
 class_names_path = os.path.join(settings.BASE_DIR, 'app01', 'static', 'models', 'class_names.pth')
 
 # Load the model
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-model = models.resnet18(weights='IMAGENET1K_V1')
+model = models.resnet50(weights='IMAGENET1K_V1')
 model.fc = nn.Linear(model.fc.in_features, 6)  # Modify for 6 classes
 model.load_state_dict(torch.load(model_path, weights_only=True))
 model.to(device)
