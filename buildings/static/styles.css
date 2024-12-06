@@ -68,3 +68,51 @@ li {
     margin-right: 10px; /* Add some spacing to the right */
     vertical-align: middle; /* Align with text vertically */
 }
+
+
+/* Hide horizontal scrollbar */
+.gallery-wrapper {
+    overflow: hidden; /* Prevent scrollbar visibility */
+    white-space: nowrap;
+    position: relative;
+}
+
+/* Optional: Ensure smooth behavior for overflow */
+.gallery-container {
+    display: inline-flex;
+    animation: scrollGallery 20s linear infinite; /* Adjust duration as needed */
+}
+
+/* General scrollbar hiding (cross-browser compatibility) */
+.gallery-wrapper::-webkit-scrollbar {
+    display: none; /* Hides scrollbar in WebKit browsers */
+}
+
+.gallery-wrapper {
+    -ms-overflow-style: none; /* Hides scrollbar in IE and Edge */
+    scrollbar-width: none; /* Hides scrollbar in Firefox */
+}
+
+/* Keyframes for scrolling */
+@keyframes scrollGallery {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-50%); /* Adjust to match the duplicated width */
+    }
+}
+
+/* Gallery item styles */
+.gallery-item {
+    flex: none;
+    width: 300px; /* Adjust as needed */
+    text-align: center;
+    margin: 0 10px; /* Space between items */
+}
+
+.gallery-photo {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Optional for rounded corners */
+}
