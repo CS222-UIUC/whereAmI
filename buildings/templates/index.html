@@ -1,17 +1,42 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en"> 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WhereAmI - UIUC Engineering Campus</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+    <style>
+        .gallery-container {
+            display: flex;
+            overflow-x: scroll;
+            gap: 20px;
+            padding: 20px 0;
+        }
+        .gallery-item {
+            min-width: 200px;
+            flex-shrink: 0;
+        }
+        .gallery-photo {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .gallery-photo {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>WhereAmI - UIUC Engineering Campus</h1>
         <nav>
             <ul>
-                <li><a href="building.html">Upload Image to Find Building</a></li>
+                <!-- <li><a href="building.html">Upload Image to Find Building</a></li> -->
+                <li><a href="{% url 'building_view' %}">Upload Image to Find Building</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -22,6 +47,30 @@
         <section id="about">
             <h2>About WhereAmI</h2>
             <p>WhereAmI is a web-app designed to help students identify buildings on the UIUC engineering campus. Simply upload a picture of a building, and we will provide details such as the building’s name, nearby bus stops, and its main functions.</p>
+        </section>
+
+        <section id="campus-gallery" class="gallery-section">
+            <div class="container">
+                <h2>Explore Our Campus</h2>
+                <div class="gallery-container">
+                    <div class="gallery-item">
+                        <img src="{% static 'campus1.jpg' %}" alt="Engineering Hall" class="gallery-photo">
+                        <p>Engineering Hall</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="{% static 'campus2.jpg' %}" alt="Grainger Library" class="gallery-photo">
+                        <p>Grainger Engineering Library</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="{% static 'campus3.jpg' %}" alt="ECE Building" class="gallery-photo">
+                        <p>ECE Building</p>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="{% static 'campus4.jpg' %}" alt="Mechanical Engineering Building" class="gallery-photo">
+                        <p>Mechanical Engineering Building</p>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <main>

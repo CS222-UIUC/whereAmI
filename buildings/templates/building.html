@@ -1,10 +1,11 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Upload Image - WhereAmI</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
 </head>
 <body>
     <header>
@@ -23,6 +24,7 @@
         <section id="upload">
             <h2>Upload an Image of a Building</h2>
             <form action="/upload" method="POST" enctype="multipart/form-data">
+                {% csrf_token %}
                 <label for="building-image">Choose an image:</label>
                 <input type="file" id="building-image" name="building-image" accept="image/*" required>
             </form>
@@ -34,8 +36,6 @@
         <section id="building-info">
             <h2>Building Information</h2>
             <p>Name of the Building: <span id="building-name">Not available</span></p>
-            <p>Nearby Bus Stops: <span id="bus-stops">Not available</span></p>
-            <p>Main Functions: <span id="building-functions">Not available</span></p>
         </section>
 
         <!-- Comments Section -->
