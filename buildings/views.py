@@ -62,12 +62,13 @@ def predict(request):
             # Map the predicted class index to a human-readable label
             predicted_class_name = class_names[predicted.item()]
 
-            # Example: You can also return the class name as part of the building data
-            building_data = {
-                "name": predicted_class_name,
-            }
+            # # Example: You can also return the class name as part of the building data
+            # building_data = {
+            #     "name": predicted_class_name,
+            # }
 
-            return render(request, 'building.html', {'building_data': building_data})
+            # return render(request, 'building.html', {'building_data': building_data})
+            return JsonResponse({'name': predicted_class_name}, status=200)
 
         except Exception as e:
             return JsonResponse({'error': f'Failed to process image: {str(e)}'}, status=500)

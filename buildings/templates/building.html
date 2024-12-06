@@ -23,13 +23,12 @@
         <!-- Upload Section -->
         <section id="upload">
             <h2>Upload an Image of a Building</h2>
-            <form action="/upload" method="POST" enctype="multipart/form-data">
+            <form id ="upload-form" action="/predict/" method="POST" enctype="multipart/form-data">
                 {% csrf_token %}
                 <label for="building-image">Choose an image:</label>
                 <input type="file" id="building-image" name="building-image" accept="image/*" required>
+                <button class="upload" type="submit">Upload</button>
             </form>
-
-            <button class="upload" type="submit">Upload</button>
         </section>
 
         <!-- Building Information Section -->
@@ -64,5 +63,32 @@
     <footer>
         <p>&copy; 2024 WhereAmI - UIUC Engineering Campus</p>
     </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+        document.querySelector('#upload-form').addEventListener('submit', async function (event) {
+            event.preventDefault(); // Prevent default form submission
+            console.log("Submitting form...");
+            const formData = new FormData(this); // Collect form data
+            const response = await fetch('/predict/', {
+                method: 'POST',
+                body: formData,
+            });
+
+            if (response.ok) {
+                const data = await response.json();
+                if (data.name) {
+                    // Update the Building Information Section
+                    document.getElementById('building-name').textContent = data.name;
+                } else if (data.error) {
+                    alert('Error: ' + data.error);
+                }
+            } else {
+                alert('Failed to fetch the prediction result.');
+            }
+        });
+    });
+
+    </script>
 </body>
 </html>
