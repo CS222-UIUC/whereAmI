@@ -60,3 +60,11 @@ li {
     color: antiquewhite;
     margin: 20px;
 }
+
+.user-icon {
+    width: 40px; /* Set the width */
+    height: 40px; /* Set the height */
+    border-radius: 50%; /* Optional: Make it circular */
+    margin-right: 10px; /* Add some spacing to the right */
+    vertical-align: middle; /* Align with text vertically */
+}

@@ -54,7 +54,7 @@
                 No comments yet. Leave your thoughts!
             </div>
 
-            <script src="Comment.js"></script>
+            <script src="{% static 'Comment.js' %}"></script>
         </section>
 
         
@@ -77,6 +77,7 @@
 
             if (response.ok) {
                 const data = await response.json();
+                console.log("Response data:", data);
                 if (data.name) {
                     // Update the Building Information Section
                     document.getElementById('building-name').textContent = data.name;
