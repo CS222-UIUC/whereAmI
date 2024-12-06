@@ -39,20 +39,33 @@
 
         <!-- Comments Section -->
         <section id="comments">
+            {% block content %}
+
             <h2>Building Comments</h2>
-            <form id="comment-form" method="POST">
                 <label for="comment">Leave a comment:</label><br>
-                <textarea id="contentOfTextarea" name="comment" rows="4" required></textarea>
-                <button class="comment" type="submit" onclick="
-                    renderComments();
-                ">Post Comment</button>
+            <form id="comment-form" method="POST">
+                {% csrf_token %}
+                {{form.as_p}}
+                <button class="comment" type="submit">Post Comment</button>
             </form>
 
             <h3>Anonymous Comments</h3>
             <div class="comment-section
             js-comment-section">
-                No comments yet. Leave your thoughts!
+                {% for comment in comments %}
+
+                    <div class="comments">
+                        <div class="comment-header">
+                            <img src="${comment.user.icon}" alt="${comment.user.name}" class="user-icon" />
+                            <strong class="username">{{comment.user}}</strong>
+                        </div>
+                        <p class="usercomment">{{comment.body}}</p>
+                    </div>
+
+                {% endfor %}
             </div>
+
+            {% endblock content %}
 
             <script src="{% static 'Comment.js' %}"></script>
         </section>

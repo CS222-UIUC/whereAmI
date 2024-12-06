@@ -8,6 +8,19 @@ from torchvision import models
 from PIL import Image
 import os
 
+import random
+from .models import Comment
+from .forms import CommentForm
+
+# list of random user names
+anonymousUsers = [
+    'Anonymous Alma Mater',
+    'Anonymous Bob',
+    'Anonymous Lincoln',
+    'Anonymous Quinn',
+    'Anonymous Red Grange',
+]
+
 # Define paths to your model and class names
 model_path = './buildings/trained_resnet18.pth'  # Make sure to update this path
 class_names_path = './buildings/class_names.pth'  # Make sure to update this path
@@ -81,4 +94,13 @@ def index_view(request):
 
 
 def building_view(request):
-    return render(request, 'building.html')  # Ensure 'index.html' exists in your templates
+    if request.method == 'POST':
+        form = CommentForm(request.POST)
+        if form.is_valid():
+            # generate random name
+            comm = form.save(commit = False)
+            num = random.randint(0,4)
+            print(anonymousUsers[num])
+            comm.user = anonymousUsers[num]
+            comm.save()
+    return render(request, 'building.html', {'comments': Comment.objects.all(), 'form': CommentForm()})  # Ensure 'index.html' exists in your templates
