@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
 
-    "buildings.apps.BuildingsConfig" # add buildings app
+    "buildings.apps.BuildingsConfig" # add buildings
 ]
 
 MIDDLEWARE = [
