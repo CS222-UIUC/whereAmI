@@ -11,6 +11,7 @@ import os
 import random
 from .models import Comment
 from .forms import CommentForm
+from django.http import HttpResponseRedirect
 
 # list of random user names
 anonymousUsers = [
@@ -92,7 +93,7 @@ def predict(request):
 def index_view(request):
     return render(request, 'index.html')  # Ensure 'index.html' exists in your templates
 
-
+@csrf_exempt
 def building_view(request):
     if request.method == 'POST':
         form = CommentForm(request.POST)
@@ -100,7 +101,8 @@ def building_view(request):
             # generate random name
             comm = form.save(commit = False)
             num = random.randint(0,4)
-            print(anonymousUsers[num])
             comm.user = anonymousUsers[num]
             comm.save()
+            return HttpResponseRedirect('http://127.0.0.1:8000/building/')
+
     return render(request, 'building.html', {'comments': Comment.objects.all(), 'form': CommentForm()})  # Ensure 'index.html' exists in your templates
