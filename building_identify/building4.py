@@ -16,7 +16,7 @@ transform = {
         transforms.RandomResizedCrop(size=256, scale=(0.8, 1.0)),
         transforms.RandomRotation(degrees=30),
         transforms.RandomHorizontalFlip(),
-        transforms.RandomVerticalFlip(p=0.2),
+        # transforms.RandomVerticalFlip(p=0.2),
         transforms.RandomAffine(degrees=0, translate=(0.1, 0.1)),
         transforms.RandomGrayscale(p=0.1),
         transforms.ColorJitter(brightness=0.2, contrast=0.2, saturation=0.2, hue=0.2),
@@ -25,7 +25,13 @@ transform = {
         transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
     ]), 
     'valid': transforms.Compose([
-        transforms.Resize(size=256),
+        transforms.RandomResizedCrop(size=256, scale=(0.8, 1.0)),
+        transforms.RandomRotation(degrees=30),
+        transforms.RandomHorizontalFlip(),
+        # transforms.RandomVerticalFlip(p=0.2),
+        transforms.RandomAffine(degrees=0, translate=(0.1, 0.1)),
+        transforms.RandomGrayscale(p=0.1),
+        transforms.ColorJitter(brightness=0.2, contrast=0.2, saturation=0.2, hue=0.2),
         transforms.CenterCrop(size=224),
         transforms.ToTensor(),
         transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
@@ -77,7 +83,7 @@ optimizer = optim.AdamW(model.parameters(), lr=0.0005, weight_decay=0.05)
 scheduler = ReduceLROnPlateau(optimizer, mode='min', factor=0.5, patience=2, verbose=True)
 
 # Training with early stopping
-num_epochs = 10
+num_epochs = 20
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 model = model.to(device)
 
@@ -100,6 +106,7 @@ for epoch in range(num_epochs):
         running_loss += loss.item()
 
     # Calculate the training accuracy (added for more information)
+    model.eval()
     correct = 0
     total = 0
     for inputs, labels in train_loader:
@@ -111,7 +118,7 @@ for epoch in range(num_epochs):
     train_accuracy = 100 * correct / total
 
     # Validation step
-    model.eval()
+    # model.eval()
     validation_loss = 0.0
     correct = 0
     total = 0
