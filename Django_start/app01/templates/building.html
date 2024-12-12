@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Image - WhereAmI</title>
+    <link rel="stylesheet" href="../static/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Where Am I?</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#upload">Upload Image</a></li>
+                <li><a href="#comments">Comments</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Upload Section -->
+        <section id="upload">
+            <h2>Upload an Image of a Building</h2>
+            <form action="/predict/" method="POST" enctype="multipart/form-data">
+                {% csrf_token %}
+            <label for="building-image">Choose an image:</label>
+            <input type="file" id="building-image" name="building-image" accept="image/*" required>
+            <button class="upload" type="submit">Upload</button>
+        </form>
+        </section>
+
+        <!-- Building Information Section -->
+        <section id="building-info">
+            <h2>Building Information</h2>
+            <!-- Display the dynamic building information -->
+            <p>Name of the Building: <span id="building-name">{{ building_data.name }}</span></p>
+            <p>Nearby Bus Stops: <span id="bus-stops">{{ building_data.bus_stops }}</span></p>
+            <p>Main Functions: <span id="building-functions">{{ building_data.functions }}</span></p>
+        </section>
+
+        <!-- Comments Section -->
+        <section id="comments">
+            <h2>Building Comments</h2>
+            <form id="comment-form" method="POST">
+                <label for="comment">Leave a comment:</label><br>
+                <textarea id="contentOfTextarea" name="comment" rows="4" required></textarea>
+                <button class="comment" type="submit" onclick="
+                    renderComments();
+                ">Post Comment</button>
+            </form>
+
+            <h3>Anonymous Comments</h3>
+            <div class="comment-section
+            js-comment-section">
+                No comments yet. Leave your thoughts!
+            </div>
+
+            <script src="../static/js/Comment.js"></script>
+        </section>
+
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2024 WhereAmI - UIUC Engineering Campus</p>
+    </footer>
+</body>
+</html>
