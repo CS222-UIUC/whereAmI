@@ -1,7 +1,10 @@
 # WhereAmI
 ## Overview
 
-This project implements a deep learning model to recognize buildings on the UIUC engineering campus. It helps students identify buildings by uploading photos.
+When incoming students come to the UIUC campus for the first time and attend classes in the first few
+weeks, they usually have a difficult time recognizing buildings and have very little knowledge about
+them. Our web-app WhereAmI helps students identify buildings and provides them with useful
+information about the buildings in the engineering campus.
 
 ## Technical Architecture
 <div style="text-align: center;">
