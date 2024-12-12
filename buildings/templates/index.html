@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WhereAmI - UIUC Engineering Campus</title>
     <link rel="stylesheet" href="{% static 'styles.css' %}">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
     <style>
         .gallery-container {
             display: flex;
@@ -32,13 +34,7 @@
 </head>
 <body>
     <header>
-        <h1>WhereAmI - UIUC Engineering Campus</h1>
-        <nav>
-            <ul>
-                <!-- <li><a href="building.html">Upload Image to Find Building</a></li> -->
-                <li><a href="{% url 'building_view' %}">Upload Image to Find Building</a></li>
-            </ul>
-        </nav>
+        <h1>WhereAmI - UIUC Engineering Campus</h1> 
     </header>
 
     <main>
@@ -65,16 +61,61 @@
                             <p>Alma Mater</p>
                         </div>
                         <div class="gallery-item">
-                            <img src="{% static 'campus4.jpg' %}" alt="Mechanical Engineering Building" class="gallery-photo">
-                            <p>Mechanical Engineering Building</p>
+                            <img src="{% static 'campus4.heic' %}" alt="Mechanical Engineering Building" class="gallery-photo">
+                            <p>Talbot Lab</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <section id="campus-map-section" style="position: relative;">
+            <h2 style="text-align: center; margin: 20px 0; font-size: 2rem; font-weight: bold;">
+                Where am I?
+            </h2>
+            <div style="height: 500px; background-image: url('{% static "campus-map.png" %}'); background-size: cover; background-position: center; position: relative;">
+                <div style="position: absolute; top: 45%; left: 50%; transform: translate(-50%, -150%); text-align: center;">
+                    <p style="margin: 0; font-size: 2.0rem; color: black; text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);">
+                        Click the pin to find your location
+                    </p>
+                </div>
+                <button
+                    onclick="location.href='{% url 'building_view' %}'"
+                    style="
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        background-color: transparent;
+                        color: red;
+                        padding: 10px;
+                        border: none;
+                        font-size: 3rem;
+                        cursor: pointer;
+                        box-shadow: none;
+                    ">
+                    <i class="fas fa-map-marker-alt"></i>
+                </button>
+            </div>
+        </section>
+        
+        
+        
+<!--     
+
+        <nav>
+            <ul style="list-style-type: none; padding: 0; margin: 0;">
+                <li>
+                    <form action="{% url 'building_view' %}" method="GET" style="margin: 0; padding: 0;">
+                        <button type="submit" style="cursor: pointer; padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 5px; text-decoration: none;">
+                            Upload Image to Find Building
+                        </button>
+                    </form>
+                </li>
+            </ul>
+        </nav> -->
         
     </main>
-    <main>
+    <!-- <main>
         <section id="contact">
             <h2>Meet The Team</h2>
             <div class="team-container">
@@ -100,8 +141,26 @@
                 </div>
             </div>
         </section>
-    </main>
+    </main> -->
 
+    <main>
+        <h2>Meet the team</h2>
+        
+        <section id="contact" style="
+            background-image: url({% static 'Team.png' %}); 
+            background-size: cover; 
+            background-position: center; 
+            height: 500px; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            text-align: center; 
+            color: white;">
+            
+        </section>
+
+    </main>
+    
     <footer>
         <p>&copy; 2024 WhereAmI</p>
     </footer>

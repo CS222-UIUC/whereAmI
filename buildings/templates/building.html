@@ -10,11 +10,35 @@
 <body>
     <header>
         <h1>Where Am I?</h1>
-        <nav>
+        <!-- <nav>
             <ul>
                 <li><a href="{% url 'index' %}">Home</a></li>
             </ul>
+        </nav> -->
+        <nav>
+            <ul style="list-style-type: none; padding: 0; margin: 0;">
+                <li>
+                    <form action="{% url 'index' %}" method="get" style="margin: 0; padding: 0;">
+                        <button
+                            type="submit"
+                            style="
+                                font-size: 17px;
+                                margin: 10px;
+                                background-color: #FF5F05;
+                                color: #13294B;
+                                height: 40px;
+                                width: 80px;
+                                border-radius: 5px;
+                                cursor: pointer;
+                                border: none;
+                            ">
+                            Home
+                        </button>
+                    </form>
+                </li>
+            </ul>
         </nav>
+        
     </header>
 
     <main>
@@ -28,9 +52,18 @@
                 <button class="upload" type="submit">Upload</button>
             </form>
             <div class="building-pic">
-                <img src="" alt="" class="building-pic">
+                <img id="preview-image" src="" alt="Building Preview" class="building-pic">
             </div>
         </section>
+        <style>
+            .building-pic img {
+                max-width: 100%; /* Scale image to fit its container */
+                max-height: 300px; /* Set maximum height */
+                object-fit: contain; /* Preserve aspect ratio */
+                border: 1px solid #ccc; /* Optional: Add a border for better visibility */
+                margin-top: 10px; /* Optional: Add some spacing */
+            }
+        </style>
 
         <!-- Building Information Section -->
         <section id="building-info">
@@ -104,6 +137,18 @@
         });
     });
 
+    </script>
+    <script>
+        document.getElementById('building-image').addEventListener('change', function(event) {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    document.getElementById('preview-image').src = e.target.result;
+                };
+                reader.readAsDataURL(file);
+            }
+        });
     </script>
 </body>
 </html>
