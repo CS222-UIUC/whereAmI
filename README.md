@@ -63,6 +63,33 @@ graph TD
 - Using Django to connect the front and back end code.  
 - Flexible roles with task exchanges likely as the project progresses.
 
+# Run Instructions
+
+## Prerequisites
+- Ensure you have **Node.js** (version 16.x or above recommended) installed.
+- Ensure you have **npm** (Node Package Manager) installed.
+
+---
+
+## Setup
+
+1. **Install Node.js Dependencies**  
+   Navigate to the project root directory and run the following command:
+   ```bash
+   npm install
+## Running the Application
+
+### Start the Backend Server
+In the root directory (where `manage.py` is located), run the Django development server:
+
+```bash
+python manage.py runserver
+```
+The app should now be accessible at:
+```bash
+http://127.0.0.1:8000
+```
+
 
 
 
