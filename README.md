@@ -3,6 +3,12 @@
 
 This project implements a deep learning model to recognize buildings on the UIUC engineering campus. It helps students identify buildings by uploading photos.
 
+## Technical Architecture
+<div style="text-align: center;">
+    <img src="project-arch.png" alt="Alt text" width="500" height="500">
+</div>
+
+
 ## Model Architecture
 
 ```mermaid
@@ -41,4 +47,22 @@ graph TD
 - Validation Accuracy: near 80%
 - Epoches: 20
 
-</div>
+## Team Members
+### Front End
+**Fiona Bai, Shaoshao Xiong**  
+- Primary Role: Working on image data processing and frontend development.  
+- Skills Focus: JavaScript, CSS, HTML, Django.
+
+### Back End
+**Evelyn Zhou, Jay Chen**  
+- Primary Role: Training the CNN model and managing the database using Django.
+- Skills Focus: Deep learning, Pytorch, Django.
+
+### Shared Responsibilities
+- Collecting images.  
+- Using Django to connect the front and back end code.  
+- Flexible roles with task exchanges likely as the project progresses.
+
+
+
+
